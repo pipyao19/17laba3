@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample5.Controller5">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="245.0" prefWidth="300.0">
+            <children>
+                <Button fx:id="buttonOne" layoutX="190.0" layoutY="48.0" mnemonicParsing="false" onAction="#plus" text="+1" />
+                <Button fx:id="buttonTwo" layoutX="190.0" layoutY="91.0" mnemonicParsing="false" onAction="#minus" prefHeight="25.0" prefWidth="31.0" text="-1" />
+                <Label layoutX="36.0" layoutY="52.0" text="Число" />
+                <TextField fx:id="valueO" layoutX="85.0" layoutY="48.0" prefHeight="25.0" prefWidth="86.0" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
